@@ -78,7 +78,7 @@ b=input("enter a password: ")
 passw(b)'''
 
 #ex6
-'''def isvalid(a):
+def isvalid(a):
     ip=a.split('.')
     if(len(ip)!=4):
         return "invalid ip"
@@ -91,7 +91,7 @@ passw(b)'''
             return "invalid ip"
     return "valid ip"
 x=input("enter an ip: ")
-print(isvalid(x))'''
+print(isvalid(x))
     
 
 
