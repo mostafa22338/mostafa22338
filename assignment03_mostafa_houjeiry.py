@@ -1,7 +1,7 @@
 def count_digits(n):
-    if(n==0):
-        return 0
-    return 1 + count_digits(n//10)
+    if(-10 <n< 10):
+        return 1
+    return  1+count_digits(n//10)
 
 def get_max(l1,n,j):
     if(n==len(l1)-1):
@@ -58,7 +58,7 @@ elif(a==2):
      c=[]
      if(a<0):
        a=int(input("invalid input, add a positive integer: "))
-       c.append(a)
+     else: c.append(a)
      while (a>0):
           c.append(a)
           a=int(input(" enter another nb to the list, enter 0 or a negative nb to stop: "))
