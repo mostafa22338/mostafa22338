@@ -58,7 +58,7 @@ elif(a==2):
      c=[]
      if(a<0):
        a=int(input("invalid input, add a positive integer: "))
-     else: c.append(a)
+       c.append(a)
      while (a>0):
           c.append(a)
           a=int(input(" enter another nb to the list, enter 0 or a negative nb to stop: "))

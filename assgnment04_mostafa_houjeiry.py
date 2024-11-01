@@ -68,5 +68,12 @@ while True:
     elif(n=='4'):
         break
         
-
-    
+'''a. 1/6N+8000N3+24 O(N3)
+b. 1/6N3             O(LOGN)
+c. 1/6N! +200N4      O(N4)
+d. NlogN +1000       O(NLOGN)
+e. logN +N           O(N)
+f. 1⁄2N(N-1)         O(N2)
+g. N2+220NlogN2+3N+9000 O(N2)
+h. N!+3N+2N+N3+N2      O(N!)
+    '''
